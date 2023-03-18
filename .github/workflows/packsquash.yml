@@ -1,0 +1,26 @@
+name: Optimize resource pack
+on:
+  push:
+    tags:
+      - '**'
+jobs:
+  packsquash:
+    name: Optimize resource pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v3
+      - name: Download optimized pack
+        uses: actions/download-artifact@v3
+        with:
+          name: Optimized pack
+          allow_optifine_mod: true # デフォルト: false / Optifine の有効化
+          maximum_image_width_and_height: 8192 # デフォルト: 8192 / 画像の最大幅・高さ
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: pack.zip
