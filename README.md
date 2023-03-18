@@ -1,2 +1,2 @@
-# resourcepack-ojousaba
-resourcepack-ojousaba
+# お嬢鯖サーバーリソースパック
+
