@@ -1,7 +1,7 @@
 
 
 let options = {
-valueNames: [ 'id', 'name', 'image','item_id', 'creators', 'nbts', 'etc', 'event', 'note', 'relation', 'category']
+valueNames: [ 'id', 'image', 'name','item_id', 'cmd', 'creators', 'note']
 };
 
 let userList = new List('users', options);
