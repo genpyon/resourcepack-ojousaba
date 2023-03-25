@@ -1,0 +1,15 @@
+{
+    "textures": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "rubber_wristband",
+            "item": "rabbit_foot",
+            "image": "assets/minecraft/models/item/ojousaba/rubber_wristband.mng",
+            "comment": "2022/12 ファンミーティングイベント参加特典",
+            "name": "光るリストバンド",
+            "creator": "kashinomi0384"
+        }
+    ]
+}
