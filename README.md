@@ -1,5 +1,7 @@
 # Minecraft生活鯖 - [お嬢鯖](https://ojousaba.gamewiki.jp/)リソースパック
 
+* [アセットリスト](https://genpyon.github.io/resourcepack-ojousaba/)
+
 ## 更新方法
 
 リソースパックに変更を行う場合は、以下の方法に従ってください。
@@ -37,6 +39,7 @@ bbmodelやJSON+画像などBlockbenchで読み込める状態のアセットを�
 * genpyon
 * alumina6767
 * kashinomi0384
+* rupia
 
 ## Licence
 
