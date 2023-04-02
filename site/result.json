@@ -2,6 +2,39 @@
     "textures": [
         {
             "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "signboard_with_mamdad",
+            "item": "flint",
+            "image": "assets/minecraft/models/item/ojousaba/nyuugakushiki2023/signboard_with_mamdad.mng",
+            "comment": "令和５年度聖兎学園祭入学式",
+            "name": "入学式看板withママパパ",
+            "creator": "kashinomi0384"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1001
+            },
+            "model": "signboard",
+            "item": "flint",
+            "image": "assets/minecraft/models/item/ojousaba/nyuugakushiki2023/signboard.mng",
+            "comment": "令和５年度聖兎学園祭入学式",
+            "name": "入学式看板",
+            "creator": "kashinomi0384"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1002
+            },
+            "model": "corsage",
+            "item": "flint",
+            "image": "assets/minecraft/models/item/ojousaba/nyuugakushiki2023/corsage.mng",
+            "comment": "令和５年度聖兎学園祭入学式",
+            "name": "入学式コサージュ",
+            "creator": "kashianomi0384"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 1
             },
             "model": "rubber_wristband",
