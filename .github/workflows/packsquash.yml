@@ -4,8 +4,11 @@ permissions:
 
 on:
   push:
+    branches:
+      - main
     tags:
       - '**'
+
 jobs:
   packsquash:
     name: Optimize resource pack
