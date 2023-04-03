@@ -2,6 +2,17 @@
     "textures": [
         {
             "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "nyuugakushiki",
+            "item": "flint",
+            "image": "assets/minecraft/models/item/ojousaba/smartpyone/nyuugakushiki.mng",
+            "comment": "令和５年度聖兎学園祭入学式",
+            "name": "スマートぴょん",
+            "creator": "alumina6767"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 1000
             },
             "model": "signboard_with_mamdad",
@@ -31,7 +42,7 @@
             "image": "assets/minecraft/models/item/ojousaba/nyuugakushiki2023/corsage.mng",
             "comment": "令和５年度聖兎学園祭入学式",
             "name": "入学式コサージュ",
-            "creator": "kashianomi0384"
+            "creator": "alumina6767"
         },
         {
             "predicate": {
