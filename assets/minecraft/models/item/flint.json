@@ -5,6 +5,7 @@
   },
   "overrides": [
     {"predicate": {"custom_model_data": 10}, "model": "item/ojousaba/smartpyone/nyuugakushiki", "__name": "スマートぴょん","__comment": "令和５年度聖兎学園祭入学式","__creator":"alumina6767"},
+    {"predicate": {"custom_model_data": 11}, "model": "item/ojousaba/yani", "__name": "ヤニ","__comment": "ヤニ","__creator":"genpyon"},
 
     {"predicate": {"custom_model_data": 1000}, "model": "item/ojousaba/nyuugakushiki2023/signboard_with_mamdad", "__name": "入学式看板withママパパ","__comment": "令和５年度聖兎学園祭入学式","__creator":"kashinomi0384"},
     {"predicate": {"custom_model_data": 1001}, "model": "item/ojousaba/nyuugakushiki2023/signboard", "__name": "入学式看板","__comment": "令和５年度聖兎学園祭入学式","__creator":"kashinomi0384"},
