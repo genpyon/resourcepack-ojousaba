@@ -4,10 +4,13 @@ permissions:
 
 on:
   push:
+    branches:
+      - '!**'
+      - 'main'
     tags:
-      - '**'
-    branches-ignore:
-      - debug
+      - 'v[0-9].[0-9].[0-9]'
+    paths:
+      - 'pack/**'
 
 jobs:
   packsquash:
@@ -21,12 +24,14 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v3
         with:
+          path: pack
+          artifact_name: optimized_release_pack_${{ github.run_id }}
           allow_optifine_mod: true # デフォルト: false / Optifine の有効化
           maximum_image_width_and_height: 8192 # デフォルト: 8192 / 画像の最大幅・高さ
       - name: Download optimized pack
         uses: actions/download-artifact@v3
         with:
-          name: Optimized pack
+          name: optimized_release_pack_${{ github.run_id }}
       - name: Rename pack file
         run: mv pack.zip ${{ github.ref_name }}.zip
       - name: Create release
