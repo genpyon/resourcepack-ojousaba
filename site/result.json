@@ -6,7 +6,7 @@
             },
             "model": "nyuugakushiki",
             "item": "flint",
-            "image": "assets/minecraft/models/item/ojousaba/smartpyone/nyuugakushiki.mng",
+            "image": "pack/assets/minecraft/models/item/ojousaba/smartpyone/nyuugakushiki.mng",
             "comment": "令和５年度聖兎学園祭入学式",
             "name": "スマートぴょん",
             "creator": "alumina6767"
@@ -28,7 +28,7 @@
             },
             "model": "signboard_with_mamdad",
             "item": "flint",
-            "image": "assets/minecraft/models/item/ojousaba/nyuugakushiki2023/signboard_with_mamdad.mng",
+            "image": "pack/assets/minecraft/models/item/ojousaba/nyuugakushiki2023/signboard_with_mamdad.mng",
             "comment": "令和５年度聖兎学園祭入学式",
             "name": "入学式看板withママパパ",
             "creator": "kashinomi0384"
@@ -39,7 +39,7 @@
             },
             "model": "signboard",
             "item": "flint",
-            "image": "assets/minecraft/models/item/ojousaba/nyuugakushiki2023/signboard.mng",
+            "image": "pack/assets/minecraft/models/item/ojousaba/nyuugakushiki2023/signboard.mng",
             "comment": "令和５年度聖兎学園祭入学式",
             "name": "入学式看板",
             "creator": "kashinomi0384"
@@ -50,7 +50,7 @@
             },
             "model": "corsage",
             "item": "flint",
-            "image": "assets/minecraft/models/item/ojousaba/nyuugakushiki2023/corsage.mng",
+            "image": "pack/assets/minecraft/models/item/ojousaba/nyuugakushiki2023/corsage.mng",
             "comment": "令和５年度聖兎学園祭入学式",
             "name": "入学式コサージュ",
             "creator": "alumina6767"
@@ -61,7 +61,7 @@
             },
             "model": "rubber_wristband",
             "item": "rabbit_foot",
-            "image": "assets/minecraft/models/item/ojousaba/rubber_wristband.mng",
+            "image": "pack/assets/minecraft/models/item/ojousaba/rubber_wristband.mng",
             "comment": "2022/12 ファンミーティングイベント参加特典",
             "name": "光るリストバンド",
             "creator": "kashinomi0384"
