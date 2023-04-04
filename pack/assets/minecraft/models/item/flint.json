@@ -15,6 +15,7 @@
     {"predicate": {"custom_model_data": 2005}, "model": "item/ojousaba/smartpyone/magenta", "__name": "スマートぴょん","__comment": "マゼンダ","__creator":"alumina6767"},
     {"predicate": {"custom_model_data": 2006}, "model": "item/ojousaba/yani", "__name": "ヤニ","__comment": "ヤニ","__creator":"genpyon"},
     {"predicate": {"custom_model_data": 2007}, "model": "item/ojousaba/sniper", "__name": "Sniper","__comment": "スナイパーライフル","__creator":"ManaitaLN"},
+    {"predicate": {"custom_model_data": 2008}, "model": "item/ojousaba/black_box", "__name": "ブラックボックス","__comment": "","__creator":"genpyon"},
 
     {"predicate": {"custom_model_data": 4000}, "model": "item/ojousaba/nyuugakushiki2023/corsage", "__name": "入学式コサージュ","__comment": "令和５年度聖兎学園祭入学式","__creator":"alumina6767"}
   ]
