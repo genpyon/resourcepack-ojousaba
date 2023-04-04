@@ -4,7 +4,7 @@
     "layer0": "minecraft:item/flint"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 10}, "model": "item/ojousaba/smartpyone/nyuugakushiki", "__name": "スマートぴょん","__comment": "令和５年度聖兎学園祭入学式","__creator":"alumina6767"},
+    {"predicate": {"custom_model_data": 10}, "model": "item/ojousaba/smartpyone/nyuugakushiki", "__name": "スマートぴょん","__comment": "令和５年度聖兎学園祭入学式特典","__creator":"alumina6767"},
     {"predicate": {"custom_model_data": 11}, "model": "item/ojousaba/smartpyone/yellow", "__name": "スマートぴょん","__comment": "黄色","__creator":"alumina6767"},
     {"predicate": {"custom_model_data": 12}, "model": "item/ojousaba/smartpyone/white", "__name": "スマートぴょん","__comment": "白色","__creator":"alumina6767"},
     {"predicate": {"custom_model_data": 13}, "model": "item/ojousaba/smartpyone/black", "__name": "スマートぴょん","__comment": "黒","__creator":"alumina6767"},
