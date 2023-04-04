@@ -13,6 +13,17 @@
         },
         {
             "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "yani",
+            "item": "flint",
+            "image": "pack/assets/minecraft/models/item/ojousaba/yani.mng",
+            "comment": "ヤニ",
+            "name": "ヤニ",
+            "creator": "genpyon"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 1000
             },
             "model": "signboard_with_mamdad",
