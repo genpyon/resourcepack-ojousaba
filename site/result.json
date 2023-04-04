@@ -15,6 +15,61 @@
             "predicate": {
                 "custom_model_data": 11
             },
+            "model": "yellow",
+            "item": "flint",
+            "image": "pack/assets/minecraft/models/item/ojousaba/smartpyone/yellow.mng",
+            "comment": "黄色",
+            "name": "スマートぴょん",
+            "creator": "alumina6767"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "white",
+            "item": "flint",
+            "image": "pack/assets/minecraft/models/item/ojousaba/smartpyone/white.mng",
+            "comment": "白色",
+            "name": "スマートぴょん",
+            "creator": "alumina6767"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "black",
+            "item": "flint",
+            "image": "pack/assets/minecraft/models/item/ojousaba/smartpyone/black.mng",
+            "comment": "黒",
+            "name": "スマートぴょん",
+            "creator": "alumina6767"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "cyan",
+            "item": "flint",
+            "image": "pack/assets/minecraft/models/item/ojousaba/smartpyone/cyan.mng",
+            "comment": "シアン",
+            "name": "スマートぴょん",
+            "creator": "alumina6767"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "magenta",
+            "item": "flint",
+            "image": "pack/assets/minecraft/models/item/ojousaba/smartpyone/magenta.mng",
+            "comment": "マゼンダ",
+            "name": "スマートぴょん",
+            "creator": "alumina6767"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
             "model": "yani",
             "item": "flint",
             "image": "pack/assets/minecraft/models/item/ojousaba/yani.mng",
