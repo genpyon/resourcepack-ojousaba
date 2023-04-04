@@ -5,7 +5,10 @@ permissions:
 on:
   push:
     branches:
-      - debug
+      - '!**'
+      - 'debug'
+    paths:
+      - 'pack/**'
 
 jobs:
   packsquash:
@@ -19,5 +22,7 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v3
         with:
+          path: pack
+          artifact_name: optimized_debug_pack_${{ github.run_id }}
           allow_optifine_mod: true
           maximum_image_width_and_height: 8192
