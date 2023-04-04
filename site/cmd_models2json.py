@@ -13,7 +13,7 @@ def models2dic(f, item):
         d['overrides'][i]['item'] = item
 
         ## サムネイル
-        d['overrides'][i]['image'] = 'assets/minecraft/models/'+ d['overrides'][i]['model'] + '.mng'
+        d['overrides'][i]['image'] = 'pack/assets/minecraft/models/'+ d['overrides'][i]['model'] + '.mng'
 
         # 参照先モデル
         d['overrides'][i]['model'] = d['overrides'][i]['model'].split('/')[-1]
@@ -35,7 +35,7 @@ def models2dic(f, item):
 
 if __name__ == '__main__':
     textures = []
-    for vanilla_model in glob.glob('./assets/minecraft/models/item/*.json', recursive=False):
+    for vanilla_model in glob.glob('./pack/assets/minecraft/models/item/*.json', recursive=False):
         with open(vanilla_model, mode='r', encoding='utf-8') as f:
             # ファイル名からアイテム名を抽出
             item = vanilla_model.split('\\')[-1].replace('.json','')
