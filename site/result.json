@@ -17,7 +17,7 @@
             },
             "model": "yani",
             "item": "flint",
-            "image": "assets/minecraft/models/item/ojousaba/yani.mng",
+            "image": "pack/assets/minecraft/models/item/ojousaba/yani.mng",
             "comment": "ヤニ",
             "name": "ヤニ",
             "creator": "genpyon"
